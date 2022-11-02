@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100vw;
+    background: url("/public/images/bg2.png");
+    background-size: cover;
+    padding: 130px 0 80px 70px;
+}
+
+.messageTitle {
+    display: flex;
+    width: 190px;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.message {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    background-color: white;
+    border-radius: 40px;
+    overflow-y: scroll;
+    width: 700px;
+    padding: 30px;
+}
+
+.message p {
+    font-size: 22px;
+    line-height: 1.4;
+}

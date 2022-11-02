@@ -1,0 +1,48 @@
+.global {
+    position: relative;
+}
+
+.slider {
+    height: 100vh;
+    display: inline-flex;
+    overflow: hidden;
+    transform: translateX(0);
+    transition: ease-out .5s;
+}
+
+.slide {
+    max-height: 100vh;
+    width: 100vw;
+    display: flex;
+    user-select: none;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    margin: 25px 0 0 70px;
+    z-index: 100;
+}
+
+header img {
+    margin-right: 25px;
+}
+
+header span {
+    text-transform: uppercase;
+    margin-left: 25px;
+    letter-spacing: 2px;
+}
+
+footer {
+    position: fixed;
+    margin: 0 0 15px 70px;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+footer p {
+    font-size: 12px;
+}
